@@ -1,5 +1,5 @@
 html, body{
-    font: 1rem "Arial", "sans-serif", "Montserrat", "Helvetica";
+    font: 1rem "Inter", "Poppins", "Montserrat", "Helvetica";
     background-color: black;
     box-sizing: border-box;
     margin: 0;
@@ -17,9 +17,47 @@ html, body{
     margin: 0;
 }
 
-/* NAVBAR */
+/* Poppins font */
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
 
-.navbar{
+.poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+  
+
+/* Horizontal NAVBAR */
+
+.horizontal-navbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -51,17 +89,32 @@ html, body{
 
 .date-container {
     display: flex;
+    margin-left: 8px;
 }
 
-.date-p-element, .greeting-p-element{
-    margin: 8px;
+.date-container svg {
+  color: #4B5563; /* cool gray */
+  width: 20px;
+  height: 20px;
 }
+
+.greeting-p-element{
+    margin: 8px;
+    margin-top: 2px; 
+}
+
+.date-p-element{
+    margin: 2px 6px;
+}
+
+/* Toggle Theme Button */
 
 .switch {
     display: inline-block;
     position: relative;
     width: 60px;
     height: 34px;
+    cursor: pointer;
 }
 
 .switch input {
@@ -95,16 +148,18 @@ html, body{
     border-radius: 50%;
 }
 
-.input:checked + .slider {
+input:checked + .slider {
     background-color: #2196F3;
 }
 
-.input:focus + .slider {
+input:focus + .slider {
     box-shadow: 0 0 1px #2196F3;
 }
 
-.input:checked + .slider:before {
+input:checked + .slider:before {
     -webkit-transform: translateX(26px);
     -ms-transform: translateX(26px);
     transform: translateX(26px);
 }
+
+/* Vertical NAVBAR */
