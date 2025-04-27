@@ -19,7 +19,7 @@
 
           <div class="logo-title" id="logo-title-container">
             <img class="logo" src="assets/images/to-do-list.svg" alt="logo">
-            <h3 class="poppins-semiBold">Todo List</h3>
+            <p class="poppins-medium">Todo List</p>
           </div>
 
           <div class="greeting-date" id="greeting-date-container">
@@ -46,8 +46,12 @@
 
           <div class="notification-container">
             <div class="icon-wrapper">
-              <i class="fa fa-bell"></i>
-              <span class="badge poppins-semiB  vbVold">1</span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" 
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" 
+                class="lucide lucide-bell-icon lucide-bell bell-regular">
+                <path d="M10.268 21a2 2 0 0 0 3.464 0"/><path d="M3.262 15.326A1 1 0 0 0 4 17h16a1 1 0 0 0 .74-1.673C19.41 13.956 18 12.499 18 8A6 6 0 0 0 6 8c0 4.499-1.411 5.956-2.738 7.326"/>
+              </svg>
+              <span class="badge poppins-semiBold"></span>
             </div>
           </div>
 
@@ -66,36 +70,59 @@
         <div class="vertical-navbar-container">
 
           <nav class="vertical-navbar">
-            <section>
               <ul>
 
-                <li class="nav-item" id="home-nav-item">
-                  <img class="vertical-nav-icons" src="assets/images/house-solid.svg">
+                <li class="nav-item" id="home-nav-item"> 
+                  
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" 
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" 
+                    class="lucide lucide-house-icon lucide-house vertical-nav-icons">
+                    <path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8"/><path d="M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
+                  </svg>
                   <p class="nav-item-text poppins-semiBold">Home</p>
+                  
                 </li>
 
-                <li class="nav-item" id="">
-                  <img class="vertical-nav-icons" src="assets/images/clipboard-solid.svg" alt="clipboard">
+                <li class="nav-item" id=""> 
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" 
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" 
+                    class="lucide lucide-clipboard-list-icon lucide-clipboard-list vertical-nav-icons">
+                    <rect width="8" height="4" x="8" y="2" rx="1" ry="1"/> 
+                    <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/>
+                    <path d="M12 11h4"/><path d="M12 16h4"/><path d="M8 11h.01"/><path d="M8 16h.01"/>
+                  </svg>
                   <p class="nav-item-text poppins-semiBold">Tasks</p>
                 </li>
 
-                <li class="nav-item calendar" id="">
-                  <img class="vertical-nav-icons calendar-icon" src="assets/images/calendar-solid.svg">
+                <li class="nav-item calendar" id=""> 
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" 
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" 
+                    class="lucide lucide-calendar-icon lucide-calendar vertical-nav-icons">
+                    <path d="M8 2v4"/><path d="M16 2v4"/><rect width="18" height="18" x="3" y="4" rx="2"/><path d="M3 10h18"/>
+                 </svg>
                   <p class="nav-item-text calendar-text poppins-semiBold">Calendar</p>
                 </li>
     
-                <li class="nav-item" id="">
-                  <img class="vertical-nav-icons" src="assets/images/notebook.svg" alt="notebook">
+                <li class="nav-item" id=""> 
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" 
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" 
+                    class="lucide lucide-notebook-icon lucide-notebook vertical-nav-icons">
+                    <path d="M2 6h4"/><path d="M2 10h4"/><path d="M2 14h4"/><path d="M2 18h4"/>
+                    <rect width="16" height="20" x="4" y="2" rx="2"/><path d="M16 2v20"/>
+                  </svg>
                   <p class="nav-item-text poppins-semiBold">Notes</p>
                </li>
 
-               <li class="nav-item" id="">
-                <img class="vertical-nav-icons" src="assets/images/clock-solid.svg" alt="clipboard">
+               <li class="nav-item" id=""> 
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" 
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" 
+                  class="lucide lucide-clock-icon lucide-clock vertical-nav-icons">
+                  <circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/>
+                </svg>
                 <p class="nav-item-text poppins-semiBold">Clock</p>
                </li>
 
               </ul>
-            </section> 
           </nav>
 
         </div>
