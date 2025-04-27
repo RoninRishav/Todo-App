@@ -1,0 +1,15 @@
+{
+    "github.copilot.enable": {
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false,
+        "*": false
+    },
+    "github.copilot.editor.enableCodeActions": true,
+    "github.copilot.chat.copilotDebugCommand.enabled": true,
+    "github.copilot.chat.startDebugging.enabled": true,
+    "github.copilot.chat.reviewSelection.enabled": true,
+    "github.copilot.chat.setupTests.enabled": true,
+    "github.copilot.chat.newWorkspaceCreation.enabled": true,
+    "github.copilot.nextEditSuggestions.enabled": true
+}
